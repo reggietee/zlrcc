@@ -5,7 +5,7 @@ window.CONTEXT_OPTIONS = {
     'antialias': true,
     'alpha': true,
     'preserveDrawingBuffer': false,
-    'preferWebGl2': true,
+    'deviceTypes': [`webgl2`, `webgl1`],
     'powerPreference': "default"
 };
 window.SCRIPTS = [ 130892268, 130892276, 130892278, 130892292, 130892295, 130892302, 130892304, 130892305 ];
